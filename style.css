@@ -8,3 +8,12 @@ body {
   color: #777777;
 }
 
+.textGame {
+  
+  width: 230px;
+  text-align: center;
+  background: #4aaaa5;
+  z-index: 2;
+
+}
+
