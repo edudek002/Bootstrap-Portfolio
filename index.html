@@ -8,17 +8,22 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
   </head>
 
 
 <body>
 
-  <nav class="navbar navbar-expand-md navbar-light bg-light" style="background: #ffffff; border-bottom: 5px solid #dddddd;">
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
 
+    <span class="border border-0 border-secondary"></span>
 
     <div class="container">
+
     
-      <a class="navbar-brand" style="background: #4aaaa5; text-align: center; width: 140px;" href="#">E D</a>
+      <a class="navbar-brand text-center" style="background: #4aaaa5; width: 140px;" href="#">E D</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -29,25 +34,20 @@
   </button>-->
 
 
-        <div class="collapse navbar-collapse" id="navbarNav" style="width: 60px; float: right;">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav navbar-right">
 
-      
-      
-            <li class="nav-item" style="width: 680px";>
-              <a class="nav-link-disabled" href="#"></a>
+
+            <li class="nav-item">
+              <h5 class="nav-link" href="#">About  |</h5>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <h5 class="nav-link" href="#">Portfolio  |</h5>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <h5 class="nav-link" href="#">Contact</h5>
             </li>
 
           </ul>
@@ -59,66 +59,91 @@
 
   
 
-  <div class="container" style="background: #e6ffff";>
-    <div class="row" style=" font-size: 24px;
-  line-height: 32px; font-family: 'Arial', Helvetica Neue, Helvetica, sans-serif;
-  color: #777777;">
+  <div class="container">
 
-      <div class="col-md-8" style="  border: solid 5px #dddddd;">
-        <div class="page-header" style=" border-bottom: 5px solid #4aaaa5; color: #4aaaa5;">
-          <h3>About Me</h3>
-        </div>
-        <div class="row" style="background: #ffffff";>
-          <div class="col-md-3">
-            <img src="http://placehold.it/200x200" alt="Placeholder" class="img-thumbnail">
-          </div>
-          <div class="col-md-9">
+
+
+
+
+    <div class="row"> <!-- style=" font-size: 24px;
+  line-height: 32px; font-family: 'Arial', Helvetica Neue, Helvetica, sans-serif;
+  color: #777777;">-->
+
+      <div class="col-md-8">     
+
+        <div class="card">
+
+          <span class="border border-info"></span>
+
+          <div class="card-body">
+
+
+            <h3 class="card-title" style=" border-bottom: 5px solid #4aaaa5; color: #4aaaa5;">About Me</h3>
+
+            <br>
+
+            <img src="images/ED_lin.jpg" alt="my picture" width="200" height="200">
+
+            <br>
+            <br>
             
 
-            <p>I like traveling in the United States and in Europe. I particulary enjoy hiking in the mountains. Last summer I trekked tour du Mont Blanc, covering a distance of about 170km, including 10km of ascent and descent. In the winter I enjoy downhill skiing in various areas in Colorado, Utah, British Columbia and the Alps.</p>
+            <p class="card-text">I like traveling in the United States and in Europe. I particulary enjoy hiking in the mountains. Last summer I trekked tour du Mont Blanc, covering a distance of about 170km, including 10km of ascent and descent. In the winter I enjoy downhill skiing in various areas in Colorado, Utah, British Columbia and the Alps.</p>
 
-            <p>Three years ago, I founded a Girls Who Code program at the University of Illinois at Chicago. The goal of this program is to close a gender gap in Computer Science. I directed year-round activities for 60 middle and high school girls as well as two 7-week Summer Immersion Programs. This year I am leading an Intermediate level of the Girls Who Code program at the U of M.</p>
+            <p>Three years ago, I founded a Girls Who Code program at the University of Illinois at Chicago. The goal of this program is to close a gender gap in Computer Science. I directed year-round activities for 60 middle and high school girls as well as two 7-week Summer Immersion Programs. This year I am leading an Intermediate level of the Girls Who Code program at the University of Minnesota.</p>
               
             
           </div>
         </div>
       </div>
 
-      <div class="col-md-4" style="background: #ffffff";>
+      
+      <div class="col-md-4"> 
 
-        <div class="row" style="height: 30px; border: solid 5px #dddddd;">
-        <div class="panel panel-default" >
-          <div class="panel-heading" style="text-align: center;">
-            <h5 class="panel-title" style="color: #4aaaa5">Connect with me</h5>
-          </div>
-        </div>
-        </div>
 
-        <div class="row" style="height: 100px; border: solid 5px #dddddd; text-align: center;">
-          <div class="panel-body">   
+          <div class="card card-body">
 
+            <h5 class="card-title text-center" style=" border-bottom: 5px solid #4aaaa5; color: #4aaaa5;">Connect with me</h5>
+
+        
+
+            <div class="row justify-content-center">
+    
+
+            <div class="col-3">
             <a href="https://www.facebook.com/">
-              <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="facebook" width="65" height="65">
+              <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="facebook" class="card-link" width="65" height="65">
             </a>
-      
+            </div>
+            
+            <div class="col-3">
             <a href="https://www.linkedin.com/in/edudek/">
-              <img src="https://pbs.twimg.com/profile_images/614583061448036352/CBpFkPaz.png" alt="linkedin" width="65" height="65">
+              <img src="https://pbs.twimg.com/profile_images/614583061448036352/CBpFkPaz.png" class="card-link" alt="linkedin" width="65" height="65">
             </a>
-      
-            <a href="https://github.com/">
-              <img src="https://pbs.twimg.com/profile_images/616309728688238592/pBeeJQDQ.png" alt="github" width="65" height="65">
-            </a>
-          </div>
-        </div>
+            </div>
 
-        </div>
+            <div class="col-3">
+            <a href="https://github.com/">
+              <img src="https://pbs.twimg.com/profile_images/616309728688238592/pBeeJQDQ.png" class="card-link" alt="github" width="65" height="65">
+            </a>
+            </div>
+
+
+            </div>
+
+          
+          </div>
+
       </div>
+
+
     </div>
   </div>
 
-  <div class="fixed-bottom" style=" font-size: 12px;
-  text-align: center; background: #666666;
-  border-top: #4aaaa5 10px solid;height:50px;">@ Copyright 2017 ED</div>
+
+
+
+  <div class="fixed-bottom p-3 text-center text-light bg-dark" style=" font-size: 12px; border-top: #4aaaa5 5px solid;">@ Copyright 2017 ED</div>
 
   <!-- jQuery CDN -->
   <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
